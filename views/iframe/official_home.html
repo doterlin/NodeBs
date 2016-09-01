@@ -1,0 +1,92 @@
+<script type="text/javascript">
+    window.pageOpt = {
+        lang: 'english',
+        page: 'official_home'
+    }
+    window.preview = 'http://192.168.2.69/website_bs/';
+</script>
+<div class="page-content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="alert alert-info">
+                <i class="ace-icon fa fa-hand-o-right"></i>直接修改表单内容，点击保存即可。预览时请先保存。
+                <button class="close " data-dismiss="alert">
+                    <i class="ace-icon fa fa-times icon-remove"></i>
+                </button>
+            </div>
+            <form class="form-horizontal" role="form">
+                <div class="clearfix form-actions">
+                    <div class="col-md-12 text-center">
+                        <button class="btn btn-info savejson" type="button" data-page='official_home'>
+                            <i class="icon-ok bigger-110"></i> 保存
+                        </button>
+                        &nbsp; &nbsp;
+                        <button class="btn jsonreset" type="button">
+                            <i class="icon-undo bigger-110"></i> 重置
+                        </button>
+                        &nbsp; &nbsp;
+                        <button class="btn btn-success preview" type="button">
+                            <i class="icon-eye-open bigger-110"></i> 预览
+                        </button>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-12">
+                        <div class="widget-box">
+                            <div class="widget-header">
+                                <h4 class="widget-title">第一屏</h4>
+                                <div class="widget-toolbar">
+                                    <a href="#" data-action="collapse">
+                                        <i class="icon-chevron-up"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="widget-body" style="display: block;">
+                                <div class="widget-main">
+                                    <div>
+                                        <label for="form-field-1">标题</label>
+                                        <textarea class="form-control" id="form-field-8" placeholder="标题" data-json='broadcast.caption'></textarea>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <label for="form-field-1">左侧图</label>
+                                        <br/>
+                                        <div class="imglist">
+                                            <img class="col-sm-2 col-xs-5" data-jsonsrc='broadcast.img'>
+                                        </div>
+                                        <div action="//dummy.html" class="dropzone dz-clickable col-xs-12 col-sm-10" data-maxfiles='1'>
+                                            <div class="dz-default dz-message"><span><span class="bigger-150 bolder"><i class="icon-caret-right red"></i> 拖动文件到此处</span> 上传 <span class="smaller-80 grey">(或者点击)</span>
+                                                <br> <i class="upload-icon icon-cloud-upload blue icon-3x"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row"></div>
+                                    <hr>
+                                    <div>
+                                        <label for="form-field-2">内容</label>
+                                        <textarea class="form-control" id="form-field-9" placeholder="内容" data-json='broadcast.detail'></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix form-actions">
+                    <div class="col-md-12 text-center">
+                        <button class="btn btn-info savejson" type="button" data-page='official_home'>
+                            <i class="icon-ok bigger-110"></i> 保存
+                        </button>
+                        &nbsp; &nbsp;
+                        <button class="btn jsonreset" type="button">
+                            <i class="icon-undo bigger-110"></i> 重置
+                        </button>
+                        &nbsp; &nbsp;
+                        <button class="btn btn-success preview" type="button">
+                            <i class="icon-eye-open bigger-110"></i> 预览
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
